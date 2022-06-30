@@ -35,14 +35,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Press to Play">
-                                            <attributes>
-                                                <font key="NSFont" size="35" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Press to Play" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="35"/>
+                                    <color key="baseForegroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="uuO-3P-ZQP" id="Fod-Su-OVX">
@@ -1910,7 +1906,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="muS-Np-cNZ"/>
         <segue reference="RqF-IV-MtG"/>
         <segue reference="blb-0p-sol"/>
         <segue reference="JKh-7n-i5T"/>
@@ -1929,7 +1924,7 @@
         <segue reference="37r-zq-WgU"/>
         <segue reference="1vR-aA-x1t"/>
         <segue reference="moM-9Q-Nhb"/>
-        <segue reference="CG2-tx-fIp"/>
+        <segue reference="Fod-Su-OVX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward.circle.fill" catalog="system" width="128" height="121"/>
