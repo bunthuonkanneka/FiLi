@@ -345,17 +345,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Sd-mn-o1k">
-                                <rect key="frame" x="20" y="174" width="374" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="a sum of money placed or kept in a bank account, usually to gain interest." cornerStyle="large">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
-                                    <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is a deposit?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUx-Co-lFl">
                                 <rect key="frame" x="94" y="82" width="250" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -414,6 +403,17 @@
                                     <segue destination="PNZ-9m-qyp" kind="show" id="GZM-qC-quP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Sd-mn-o1k">
+                                <rect key="frame" x="20" y="174" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="A sum of money placed or kept in a bank account, usually to gain interest." cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wLh-At-XiG"/>
                         <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -423,7 +423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWg-fv-foc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2023" y="84"/>
+            <point key="canvasLocation" x="2021.7391304347827" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Aew-16-Z7L">
@@ -525,7 +525,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="the action or process of investing money for profit." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="The action or process of investing money for profit." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -598,7 +598,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnR-Ky-oMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3484" y="84"/>
+            <point key="canvasLocation" x="3482.608695652174" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aqZ-z8-fNE">
@@ -700,7 +700,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="a type of loan, but your home or property is tied to the terms of the loan." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="A type of loan, but your home or property is tied to the terms of the loan." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -772,7 +772,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0u9-p4-Sec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4870" y="84"/>
+            <point key="canvasLocation" x="4869.5652173913049" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sfa-2Q-Vtj">
@@ -874,7 +874,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="is the amount of money that a company’s owner puts into or owns." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="Is the amount of money that a company’s owner puts into or owns." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -891,8 +891,15 @@
                                 <rect key="frame" x="20" y="351" width="374" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Is the amount of credit that a company’s owner has." cornerStyle="large">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Is the amount of credit that a company’s owner has.">
+                                            <attributes>
+                                                <font key="NSFont" size="21" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
@@ -946,7 +953,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uCu-si-Bcg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6290" y="84"/>
+            <point key="canvasLocation" x="6289.8550724637689" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dw2-Gr-ul2">
@@ -961,7 +968,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="a general increase in prices and fall in the purchasing value of money." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="A eneral increase in prices and fall in the purchasing value of money." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -1033,7 +1040,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QYQ-If-6lr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7019" y="84"/>
+            <point key="canvasLocation" x="7018.8405797101459" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hzn-HW-k0F">
@@ -1222,7 +1229,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="s a security that represents your fractional ownership in a company or certain business.." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="Is a security that represents your fractional ownership in a company or certain business.." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -1294,7 +1301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Tv-E0-mYh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9212" y="84"/>
+            <point key="canvasLocation" x="9211.5942028985519" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BjI-iz-shu">
@@ -1310,7 +1317,7 @@
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <string key="title">a compulsory contribution to state revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, services, and transactions.</string>
+                                    <string key="title">A compulsory contribution to state revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, services, and transactions.</string>
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -1327,7 +1334,7 @@
                                 <rect key="frame" x="20" y="351" width="374" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="a method of payment that allows you to save money easily by splitting the money you gained directly into a savings account." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="A method of payment that allows you to save money easily by splitting the money you gained directly into a savings account." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -1337,7 +1344,7 @@
                                 <rect key="frame" x="20" y="566" width="374" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="a type of loan that is focused on helping you to make future financial decisions that have long term benefits on your finances." cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="A type of loan that is focused on helping you to make future financial decisions that have long term benefits on your finances." cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -1805,7 +1812,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="is an initial up-front partial payment for the purchase of expensive items/services such as a car or a house" cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="filled" title="Is an initial up-front partial payment for the purchase of expensive items/services such as a car or a house" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.87843137250000003" green="0.89411764709999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
@@ -1912,23 +1919,22 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Hx9-xg-aUW"/>
-        <segue reference="03n-uO-oyH"/>
+        <segue reference="zAQ-xO-dck"/>
         <segue reference="DQY-k3-C0l"/>
         <segue reference="blb-0p-sol"/>
         <segue reference="JKh-7n-i5T"/>
         <segue reference="ZXd-H7-n3u"/>
-        <segue reference="edd-yf-7Vd"/>
+        <segue reference="zHN-iP-y1r"/>
         <segue reference="BYS-Jq-PmP"/>
         <segue reference="9Zn-Ij-lfp"/>
-        <segue reference="2Ok-eP-5pr"/>
-        <segue reference="m8N-gs-YbK"/>
+        <segue reference="3Hy-se-D50"/>
+        <segue reference="DR8-F2-7Ib"/>
         <segue reference="pII-hE-8Zg"/>
         <segue reference="yOJ-kc-fOM"/>
         <segue reference="2fO-As-F3k"/>
-        <segue reference="Fth-fh-fUZ"/>
+        <segue reference="hoJ-Fa-ucf"/>
         <segue reference="bt7-z6-QYp"/>
-        <segue reference="F5B-jX-9fN"/>
+        <segue reference="peq-IZ-Evj"/>
         <segue reference="37r-zq-WgU"/>
         <segue reference="GZM-qC-quP"/>
         <segue reference="moM-9Q-Nhb"/>
