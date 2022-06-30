@@ -77,6 +77,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pdb-mJ-kMx" kind="show" id="muS-Np-cNZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxD-bw-f8g">
                                 <rect key="frame" x="20" y="194" width="374" height="128"/>
@@ -1245,7 +1248,7 @@
             <objects>
                 <viewController id="pdb-mJ-kMx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jcI-sv-TQZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YGQ-wm-8Xu">
@@ -1295,13 +1298,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFt-xF-Tsv">
-                                <rect key="frame" x="324" y="755" width="70" height="61"/>
+                                <rect key="frame" x="324" y="755" width="70" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.forward.circle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="CG2-tx-fIp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v58-4b-1fn">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1316,10 +1322,11 @@
                         <viewLayoutGuide key="safeArea" id="SPv-9V-Bfk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="f2E-vo-9q9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pdd-iN-KPV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9212" y="817"/>
+            <point key="canvasLocation" x="9211.5942028985519" y="816.96428571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aIU-E6-4IL">
@@ -1364,6 +1371,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="sEA-oV-rGH" kind="show" id="T7v-JG-CVA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-YY-B2r">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1411,7 +1421,7 @@
             <objects>
                 <viewController id="sEA-oV-rGH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dmY-s2-IHW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is gross income?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2x-Ot-qk4">
@@ -1456,6 +1466,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Qjs-A2-eqm" kind="show" id="sIb-KK-onp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2s-Rp-hed">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1465,6 +1478,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="o6Y-XI-p6X" kind="show" id="edd-yf-7Vd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ltv-70-H98">
                                 <rect key="frame" x="20" y="161" width="374" height="128"/>
@@ -1481,6 +1497,7 @@
                         <viewLayoutGuide key="safeArea" id="04q-DV-KQe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dWw-zn-pVB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQY-H7-Uhf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1491,7 +1508,7 @@
             <objects>
                 <viewController id="Qjs-A2-eqm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CBZ-sQ-5pv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is cash flow?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7It-iV-5Sb">
@@ -1536,6 +1553,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="t7M-OG-1zH" kind="show" id="82F-Ve-TYx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLK-5n-X9a">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1545,6 +1565,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="sEA-oV-rGH" kind="show" id="ZXd-H7-n3u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1uN-PK-EHI">
                                 <rect key="frame" x="20" y="161" width="374" height="128"/>
@@ -1561,6 +1584,7 @@
                         <viewLayoutGuide key="safeArea" id="Y0g-jF-IfH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7wi-kc-Kls"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="isI-kw-12z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1571,7 +1595,7 @@
             <objects>
                 <viewController id="t7M-OG-1zH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jgP-h8-EkA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is credit history?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epM-4O-C41">
@@ -1616,6 +1640,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="A3e-K1-KKd" kind="show" id="RqF-IV-MtG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbT-wW-3DG">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1625,6 +1652,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Qjs-A2-eqm" kind="show" id="JKh-7n-i5T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xIW-oh-4lN">
                                 <rect key="frame" x="20" y="161" width="374" height="128"/>
@@ -1642,6 +1672,7 @@
                         <viewLayoutGuide key="safeArea" id="q7X-Xu-BQp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qwW-bu-LBT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CnE-32-XKp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1652,7 +1683,7 @@
             <objects>
                 <viewController id="A3e-K1-KKd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q7a-zG-oOG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is a downpayment?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySs-r2-kSq">
@@ -1697,6 +1728,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="XZ0-2O-beN" kind="show" id="zAQ-xO-dck"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRO-tb-wic">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1706,6 +1740,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="t7M-OG-1zH" kind="show" id="blb-0p-sol"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NLi-wX-hFh">
                                 <rect key="frame" x="20" y="161" width="374" height="128"/>
@@ -1722,6 +1759,7 @@
                         <viewLayoutGuide key="safeArea" id="ilK-16-EA8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8MB-DD-agg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xQ3-xM-C05" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1732,7 +1770,7 @@
             <objects>
                 <viewController id="XZ0-2O-beN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CO4-wJ-sBA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="PYi-rP-CKl">
@@ -1799,11 +1837,15 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="A3e-K1-KKd" kind="show" id="DQY-k3-C0l"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hfO-JU-rew"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VZr-UD-TGk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1yY-Sh-xx5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1811,6 +1853,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="DQY-k3-C0l"/>
+        <segue reference="blb-0p-sol"/>
+        <segue reference="JKh-7n-i5T"/>
+        <segue reference="ZXd-H7-n3u"/>
+        <segue reference="edd-yf-7Vd"/>
         <segue reference="BYS-Jq-PmP"/>
         <segue reference="9Zn-Ij-lfp"/>
         <segue reference="2Ok-eP-5pr"/>
@@ -1823,7 +1870,8 @@
         <segue reference="peq-IZ-Evj"/>
         <segue reference="37r-zq-WgU"/>
         <segue reference="GZM-qC-quP"/>
-        <segue reference="04U-kJ-yy7"/>
+        <segue reference="moM-9Q-Nhb"/>
+        <segue reference="CG2-tx-fIp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward.circle.fill" catalog="system" width="128" height="121"/>
