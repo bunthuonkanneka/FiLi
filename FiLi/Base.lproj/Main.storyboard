@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rp5-lR-NWV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -44,6 +44,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="uuO-3P-ZQP" id="Fod-Su-OVX">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GEP-At-l4S"/>
@@ -1905,7 +1910,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DQY-k3-C0l"/>
+        <segue reference="muS-Np-cNZ"/>
+        <segue reference="RqF-IV-MtG"/>
         <segue reference="blb-0p-sol"/>
         <segue reference="JKh-7n-i5T"/>
         <segue reference="ZXd-H7-n3u"/>
@@ -1921,7 +1927,7 @@
         <segue reference="bt7-z6-QYp"/>
         <segue reference="peq-IZ-Evj"/>
         <segue reference="37r-zq-WgU"/>
-        <segue reference="GZM-qC-quP"/>
+        <segue reference="1vR-aA-x1t"/>
         <segue reference="moM-9Q-Nhb"/>
         <segue reference="CG2-tx-fIp"/>
     </inferredMetricsTieBreakers>
