@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="Rp5-lR-NWV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Smd-Ao-RnA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuO-3P-ZQP">
@@ -49,6 +49,7 @@
                         <viewLayoutGuide key="safeArea" id="GEP-At-l4S"/>
                         <color key="backgroundColor" red="0.81960784313725488" green="0.8784313725490196" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8gb-Rd-Uei"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xOy-A4-3wH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,7 +118,7 @@
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="pdb-mJ-kMx" kind="show" id="muS-Np-cNZ"/>
+                                    <segue destination="Rp5-lR-NWV" kind="show" id="GCH-tL-RLS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxD-bw-f8g">
@@ -1911,13 +1912,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Hx9-xg-aUW"/>
         <segue reference="03n-uO-oyH"/>
         <segue reference="DQY-k3-C0l"/>
         <segue reference="blb-0p-sol"/>
         <segue reference="JKh-7n-i5T"/>
         <segue reference="ZXd-H7-n3u"/>
         <segue reference="edd-yf-7Vd"/>
-        <segue reference="Hx9-xg-aUW"/>
         <segue reference="BYS-Jq-PmP"/>
         <segue reference="9Zn-Ij-lfp"/>
         <segue reference="2Ok-eP-5pr"/>
