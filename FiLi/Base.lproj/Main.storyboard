@@ -101,6 +101,12 @@
                         <color key="tintColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="gnL-Yu-nFo"/>
+                    <connections>
+                        <outlet property="answerLabel1" destination="kxD-bw-f8g" id="oeO-zh-iPs"/>
+                        <outlet property="answerLabel2" destination="s6O-dM-Ay6" id="5u9-Kq-e7G"/>
+                        <outlet property="answerLabel3" destination="Z9q-c6-bUb" id="J3H-jL-nv1"/>
+                        <outlet property="iconLabel" destination="Gm5-c5-db0" id="1Ob-rx-gnR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
