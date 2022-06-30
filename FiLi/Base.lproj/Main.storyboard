@@ -1369,6 +1369,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="XZ0-2O-beN" kind="show" id="03n-uO-oyH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SPv-9V-Bfk"/>
@@ -1880,6 +1883,9 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pdb-mJ-kMx" kind="show" id="Hx9-xg-aUW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nK5-t7-GC1">
                                 <rect key="frame" x="20" y="755" width="70" height="61"/>
@@ -1905,11 +1911,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="03n-uO-oyH"/>
         <segue reference="DQY-k3-C0l"/>
         <segue reference="blb-0p-sol"/>
         <segue reference="JKh-7n-i5T"/>
         <segue reference="ZXd-H7-n3u"/>
         <segue reference="edd-yf-7Vd"/>
+        <segue reference="Hx9-xg-aUW"/>
         <segue reference="BYS-Jq-PmP"/>
         <segue reference="9Zn-Ij-lfp"/>
         <segue reference="2Ok-eP-5pr"/>
@@ -1923,7 +1931,7 @@
         <segue reference="37r-zq-WgU"/>
         <segue reference="1vR-aA-x1t"/>
         <segue reference="moM-9Q-Nhb"/>
-        <segue reference="Fod-Su-OVX"/>
+        <segue reference="CG2-tx-fIp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward.circle.fill" catalog="system" width="128" height="121"/>
