@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -679,7 +678,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bx4-sz-VeS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="OUE-Ab-G4h"/>
                 </viewController>
@@ -766,7 +765,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tju-40-LbO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="1iY-PJ-g3r"/>
                 </viewController>
@@ -853,7 +852,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2tv-yy-lyv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Dqp-EB-Ton"/>
                 </viewController>
@@ -940,7 +939,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YVp-uv-HJa"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="auK-sp-IMn"/>
                 </viewController>
@@ -1027,7 +1026,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aWU-sM-XZO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="cFI-zG-mUu"/>
                 </viewController>
@@ -1114,7 +1113,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9QQ-fV-xjw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Swb-bc-oAM"/>
                 </viewController>
@@ -1201,7 +1200,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wvV-pG-6Rj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="mK6-4N-eb9"/>
                 </viewController>
@@ -1288,7 +1287,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZbK-N9-Orq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="MDy-Xa-YFc"/>
                 </viewController>
@@ -1373,7 +1372,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SPv-9V-Bfk"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="f2E-vo-9q9"/>
                 </viewController>
@@ -1461,7 +1460,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GY3-Ia-tUC"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bty-sX-Uvb"/>
                 </viewController>
@@ -1548,7 +1547,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="04q-DV-KQe"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dWw-zn-pVB"/>
                 </viewController>
@@ -1635,7 +1634,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y0g-jF-IfH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="7wi-kc-Kls"/>
                 </viewController>
@@ -1723,7 +1722,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q7X-Xu-BQp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="qwW-bu-LBT"/>
                 </viewController>
@@ -1810,7 +1809,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ilK-16-EA8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="8MB-DD-agg"/>
                 </viewController>
@@ -1896,7 +1895,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hfO-JU-rew"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.87843137250000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="VZr-UD-TGk"/>
                 </viewController>
@@ -1906,7 +1905,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RqF-IV-MtG"/>
+        <segue reference="DQY-k3-C0l"/>
         <segue reference="blb-0p-sol"/>
         <segue reference="JKh-7n-i5T"/>
         <segue reference="ZXd-H7-n3u"/>
@@ -1924,13 +1923,10 @@
         <segue reference="37r-zq-WgU"/>
         <segue reference="1vR-aA-x1t"/>
         <segue reference="moM-9Q-Nhb"/>
-        <segue reference="Fod-Su-OVX"/>
+        <segue reference="CG2-tx-fIp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward.circle.fill" catalog="system" width="128" height="121"/>
         <image name="arrow.forward.circle.fill" catalog="system" width="128" height="121"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
