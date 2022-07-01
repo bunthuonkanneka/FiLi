@@ -14,21 +14,21 @@ class ViewController: UIViewController {
         if answerLabel1.currentTitle == "A type of payment card in which charges are made against a line of credit instead of the account holder's cash deposits." {
             iconLabel.text = "✅"
         } else {
-            iconLabel.text = "X"
+            iconLabel.text = "❌"
         }
     }
     @IBAction func answer2(_ sender: Any) {
         if answerLabel2.currentTitle == "A type of payment card in which charges are made against a line of credit instead of the account holder's cash deposits." {
             iconLabel.text = "✅"
         } else {
-            iconLabel.text = "X"
+            iconLabel.text = "❌"
         }
     }
     @IBAction func answer3(_ sender: Any) {
         if answerLabel3.currentTitle == "A type of payment card in which charges are made against a line of credit instead of the account holder's cash deposits." {
             iconLabel.text = "✅"
         } else {
-            iconLabel.text = "X"
+            iconLabel.text = "❌"
         }
     }
     

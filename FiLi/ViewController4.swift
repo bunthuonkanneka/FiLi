@@ -1,32 +1,34 @@
 //
-//  ViewController3.swift
+//  ViewController4.swift
 //  FiLi
 //
-//  Created by Bunthuon Kanneka on 30/6/22.
+//  Created by Bunthuon Kanneka on 1/7/22.
 //
 
 import UIKit
 
-class ViewController3: UIViewController {
+class ViewController4: UIViewController {
     @IBOutlet weak var answerLabel1: UIButton!
     @IBOutlet weak var answerLabel2: UIButton!
     @IBOutlet weak var answerLabel3: UIButton!
     @IBAction func answer1(_ sender: Any) {
-        if answerLabel1.currentTitle == "the price paid for the use of credit or money. It may be expressed either in money terms or as a rate of payment." {
+        if answerLabel1.currentTitle == "A sum of money placed or kept in a bank account, usually to gain interest." {
             iconLabel.text = "✅"
         } else {
             iconLabel.text = "❌"
         }
     }
+    
     @IBAction func answer2(_ sender: Any) {
-        if answerLabel2.currentTitle == "the price paid for the use of credit or money. It may be expressed either in money terms or as a rate of payment." {
+        if answerLabel2.currentTitle == "A sum of money placed or kept in a bank account, usually to gain interest." {
             iconLabel.text = "✅"
         } else {
             iconLabel.text = "❌"
         }
     }
+    
     @IBAction func answer3(_ sender: Any) {
-        if answerLabel3.currentTitle == "the price paid for the use of credit or money. It may be expressed either in money terms or as a rate of payment." {
+        if answerLabel3.currentTitle == "A sum of money placed or kept in a bank account, usually to gain interest." {
             iconLabel.text = "✅"
         } else {
             iconLabel.text = "❌"
@@ -34,7 +36,7 @@ class ViewController3: UIViewController {
     }
     @IBOutlet weak var iconLabel: UILabel!
     
-    var answer = ["the price paid for the use of credit or money. It may be expressed either in money terms or as a rate of payment.","It is the money taken from the bank for ones own personal interest in the use of money on goods.","It is the certain amount of money that is given to the bank based on their interested needs."]
+    var answer = ["A sum of money placed or kept in a bank account, usually to gain interest.", "A sum of credit placed on a card, to gain a credit score.","A sum of money borrowed from a bank to help pay a fee, purchase property or invest that will be paid back."]
     
     override func viewDidLoad() {
         super.viewDidLoad()
